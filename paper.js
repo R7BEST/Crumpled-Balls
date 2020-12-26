@@ -15,7 +15,7 @@ class Paper
 		this.r=r
 		this.body=Bodies.circle(this.x, this.y, this.r/2, options)
 		World.add(world, this.body);
-		this.image=loadImage("PIC/PAPER.JPG")
+		this.image=loadImage("PAPER.JPG")
 		//this.Paper.scale=0.1;
 	}
 
